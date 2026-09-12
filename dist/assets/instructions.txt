@@ -1,0 +1,27 @@
+===========================================================
+❤️ HOW TO ADD YOUR GIRLFRIEND'S PHOTOS & MUSIC ❤️
+===========================================================
+
+1. PHOTOS:
+Place her photos inside this folder:
+/public/assets/photos/
+
+Recommended names or formats:
+- photo1.jpg (or .png / .webp)
+- photo2.jpg
+- photo3.jpg
+- photo4.jpg
+
+Then in `src/config/loveData.js`, under `memories.gallery`, simply point `image` to:
+"/assets/photos/photo1.jpg"
+
+(If you leave it as is, the site will show the beautiful romantic illustrations provided by default!)
+
+2. ROMANTIC MUSIC:
+Place your favourite romantic background song in this folder:
+/public/assets/romantic-music.mp3
+
+The music button will automatically detect and play it!
+If no MP3 is added, the site has a built-in soothing music-box lullaby synthesizer, so it works out of the box.
+
+Enjoy celebrating your love! ❤️
